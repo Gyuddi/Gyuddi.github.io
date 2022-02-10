@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-title: dbyll
+title: INSIDE_GYU
 
 defaults:
   -
@@ -24,7 +24,7 @@ author:
   twitter: Gyuddi
   pinterest: asd123
   linkedin: asd123
-  bio: Those who were seen dancing were thought to be insane by those who could not hear the music. 
+  bio: Those who were seen dancing were thought to be insane by those who could not hear the music.
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
