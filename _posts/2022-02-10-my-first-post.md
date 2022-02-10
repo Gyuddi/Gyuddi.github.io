@@ -50,7 +50,8 @@ last_modified_at: 2022-02-10
 
 - 빨강
   - 녹색
-    - 파랑
+    - 파랑   
+
 <!--코드 들여쓰기(한줄씩 띄어써야 인정됨)-->
 This is a normal paragraph:
 
