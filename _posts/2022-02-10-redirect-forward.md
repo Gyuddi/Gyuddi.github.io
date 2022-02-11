@@ -24,13 +24,13 @@ redirect는 http 프로토콜로 정해진 규칙이다.
 	response.sendRedirect("redirect02.jsp");
 %>
 ```
-__결국 클라이언트는 요청을 2번 보내고 서버는 응답을 2번 보내게 된다.__
-***
+__결국 클라이언트는 요청을 2번 보내고 서버는 응답을 2번 보내게 된다.__   
+***   
 Forward란?   
 
 1. servlet1 이 요청을 받으면 2. servelt1은 요청을 일부 처리하고 그 결과를 HttpServletRequest에 저장. 
-3. servlet1은 결과가 저장된 Request와 응답을 위한 Response를 같은 웹 어플리케이션 안의 servlet2에게 전달(Forward)
-4. servelt2가 이를 처리한 후 부라우저에 결과 전송     
+2. servlet1은 결과가 저장된 Request와 응답을 위한 Response를 같은 웹 어플리케이션 안의 servlet2에게 전달(Forward)
+3. servelt2가 이를 처리한 후 부라우저에 결과 전송     
 
 __forward와 redirect의 차이->__   
 
