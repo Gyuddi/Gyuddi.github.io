@@ -40,7 +40,7 @@ redirect는 url이 변하지만, forward는 url이 변하지 않음.
 이를 생각해보면 redirect는 2번의 request,response객체 생성이 실행되지만, forward는 하나만 생성, 유지됨.   
 servelt1에 처리된 결과값이 존재한다면?   
 servelt1,2에 모두 접근 가능한 객체가 필요하다. ->request객체에 결과를 저장한다.(forward의 인자로 request,response를 넘겨준다.)   
-*FrontServlet*
+**FrontServlet**
 ```java
 protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
@@ -52,7 +52,7 @@ protected void service(HttpServletRequest request, HttpServletResponse response)
 		requestDispatcher.forward(request, response);
 	}
 ```
-*NextServlet*
+**NextServlet**
 ```java
 protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
