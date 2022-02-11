@@ -25,7 +25,7 @@ redirect는 http 프로토콜로 정해진 규칙이다.
 %>
 ```
 __결국 클라이언트는 요청을 2번 보내고 서버는 응답을 2번 보내게 된다.__   
-***   
+* * *   
 Forward란?   
 
 1. servlet1 이 요청을 받으면 2. servelt1은 요청을 일부 처리하고 그 결과를 HttpServletRequest에 저장. 
